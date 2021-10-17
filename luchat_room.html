@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "luchat_room.css">
+</head>
+<h1>Welcome!</h1>
+<img src = "chat.png" height = "200" width = "200" style = "border-radius: 100%;">
+<br>
+<h3 id = "welcome_user_name"></h3>
+
+<body>
+    <button id = "logout" onclick = "logout_now()" style = "background-color: red; height:70px; width: 130px;color:white;font-family: 'Roboto', sans-serif;">Logout</button>
+    <br>
+    <br>
+    <label>Add Room: </label>
+    <br>
+    <input type = "text" id = "room_name" placeholder = "Enter Here" style = "height:80px; width:300px;">
+    <br>
+    <button type = "button" id = "button_addroom" onclick = "add_room()" style = "background-color: green; height:70px;width:130px;color:white;font-family: 'Roboto', sans-serif;">Add Room.</button>
+    <br>
+    <div id = "trending-rooms">
+
+    </div>
+</body>
+</html>
